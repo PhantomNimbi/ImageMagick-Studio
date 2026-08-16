@@ -55,7 +55,7 @@ python main.py
 
 ## 🧰 Prerequisites / Manual Adjustments
 
-If you choose not to use the automated system bootstrappers, ensure these target core components are installed manually on your device and bound to your System PATH variables:
+Ensure these target core components are installed on your device and bound to your System PATH variables:
 
 * **Python:** Runtime Engine (v3.10 or higher).
 * **ImageMagick:** CLI Core Utility Toolkit Binary.
