@@ -39,20 +39,6 @@ MagickStudio/
     └── doc_cogs/
 ```
 
-## Setup and installation
-
-### Requirements
-
-* Python 3.10 or later
-* ImageMagick
-* Git
-
-```bash
-git clone https://github.com/PhantomNimbi/Magick-Studio.git`
-cd magic-studio
-pip install -r requirements.txt
-```
-
 ---
 
 ## 🏁 Launching the Studio Application
