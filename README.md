@@ -4,6 +4,12 @@ A professional, cross-platform graphical user interface (GUI) for **ImageMagick*
 
 ---
 
+<div align="center" width="80%" height="auto">
+
+![[preview](preview.png)](preview.png)
+
+</div>
+
 ## ✨ Features
 
 * **Geometry & Format Suite:** Fast proportionally scaled down sampling (`-resize`), precise box boundary extractions (`-crop`), and backdrop canvas extensions (`-extent`).
