@@ -51,12 +51,19 @@ Once your deployment bootstrapper finishes successfully, spin up the unified wor
 python main.py
 ```
 
-* On Windows systems, you can simply double-click the **`launch.vbs`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
-* On macOS systems, you can simply double-click the **`launch.command`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
-* On Linux systems, you can simply double-click the **`launch.sh`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
-  * There is also a **`MagicStudio.desktop`** file for use with adding a desktop shortcut to the Magic Studio app on Linux.
+### Windows
 
-> **Note**: Linux users wioll need to run `chmod +x launch.sh` to make the launch script executeable.
+Double-click the **`launch.vbs`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
+
+### macOS
+
+Double-click the **`launch.command`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
+
+### Linux
+
+Double-click the **`launch.sh`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing. There is also a **`MagicStudio.desktop`** file for use with adding a desktop shortcut to the Magic Studio app on Linux.
+
+**Note**: Linux users wioll need to run `chmod +x launch.sh` to make the launch script executeable.
 
 ---
 
