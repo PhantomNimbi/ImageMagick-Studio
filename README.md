@@ -20,9 +20,6 @@ MagickStudio/
 ├── main.py                # Main Application Entry Bootloader
 ├── core.py                # Shared Subprocess Wrapper & Styling Guide
 ├── requirements.txt       # Python Dependencies Manifest
-├── setup.bat              # Windows Automated Bootstrapper Installer
-├── setup_linux.sh         # Linux Automated Bootstrapper Installer
-├── setup_mac.sh           # macOS Automated Bootstrapper Installer
 ├── launch.vbs             # Windows Hidden Console Window Wrapper
 ├── make_icon.py           # Cross-Platform Graphic Assets Compiler
 ├── assets/                # Auto-compiled Multi-Resolution Icon Folder
