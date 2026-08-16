@@ -73,3 +73,8 @@ Ehthumbs.db
 output/
 *_mod.*
 *_fx.*
+
+# Assets creation scripts and temporary files
+*.bat
+*.sh
+make_icons.py

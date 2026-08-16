@@ -21,7 +21,6 @@ MagickStudio/
 ├── core.py                # Shared Subprocess Wrapper & Styling Guide
 ├── requirements.txt       # Python Dependencies Manifest
 ├── launch.vbs             # Windows Hidden Console Window Wrapper
-├── make_icons.py          # Cross-Platform Graphic Assets Compiler
 ├── assets/                # Auto-compiled Multi-Resolution Icon Folder
 └── tabs/                  # Main Panel Module Controllers Package
     ├── geometry.py
