@@ -2,8 +2,6 @@
 
 A professional, cross-platform graphical user interface (GUI) for **ImageMagick** built entirely in Python using CustomTkinter.
 
----
-
 <div align="center">
 <img src="preview.png" width="80%" height="auto" alt="preview" />
 </div>
