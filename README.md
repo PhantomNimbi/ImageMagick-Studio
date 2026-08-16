@@ -1,6 +1,6 @@
 # 🛠️ Magick Studio
 
-A professional, cross-platform graphical user interface (GUI) for **ImageMagick** built entirely in Python using CustomTkinter. This workspace houses advanced batch automation workflows, visual chromatic kernels, and pixel geometry manipulation suites under a clean, unified split-panel list engine layout.
+A professional, cross-platform graphical user interface (GUI) for **ImageMagick** built entirely in Python using CustomTkinter.
 
 ---
 
