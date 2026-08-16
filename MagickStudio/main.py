@@ -1,5 +1,13 @@
 import os
 import sys
+
+# --- FORCE PORTABLE LIBRARY BINDINGS ON EXECUTION BOOT ---
+# Prepend the internal vendor library path into memory before UI modules load
+script_dir = os.path.dirname(os.path.abspath(__file__))
+vendor_path = os.path.join(script_dir, "vendor")
+if os.path.exists(vendor_path):
+    sys.path.insert(0, vendor_path)
+
 import ctypes
 import customtkinter as ctk
 from core import CoreEngine
@@ -28,32 +36,24 @@ class ApplicationStudio(ctk.CTk):
         self.minsize(1000, 750)
 
         # --- DYNAMIC CROSS-PLATFORM NATIVE ICON ROUTER ---
-        # Selects the optimal asset format based on the host operating system platform
         assets_dir = "assets"
         
         if sys.platform.startswith("win"):
-            # Windows: Load standard multi-resolution ICO file container
             icon_win = os.path.join(assets_dir, "app_icon.ico")
             if os.path.exists(icon_win):
                 self.wm_iconbitmap(icon_win)
                 
         elif sys.platform.startswith("darwin"):
-            # macOS: Load standardized Apple ICNS container layer
             icon_mac = os.path.join(assets_dir, "app_icon.icns")
             if os.path.exists(icon_mac):
-                # CustomTkinter wraps standard Tkinter icon photo methods for Apple hosts
                 try:
                     self.iconbitmap(icon_mac)
                 except Exception:
                     pass
-                    
         else:
-            # Linux / X11 / Wayland: Load standalone high-res 256x256 PNG raster layer
             icon_linux = os.path.join(assets_dir, "icon_256x256.png")
             if os.path.exists(icon_linux):
                 try:
-                    img_object = ctk.CTkImage(light_image=None, dark_image=None) # Placeholder initialization
-                    # Pass raw photo image data map up to the X11 windowing subsystem
                     from PIL import Image, ImageTk
                     photo = ImageTk.PhotoImage(Image.open(icon_linux))
                     self.wm_iconphoto(True, photo)
