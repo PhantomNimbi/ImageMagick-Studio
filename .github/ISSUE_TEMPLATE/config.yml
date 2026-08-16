@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📖 ImageMagick CLI Command Reference"
+    url: "https://imagemagick.org"
+    about: "Verify raw ImageMagick pipeline options before creating an issue block."
