@@ -1,0 +1,31 @@
+name: Python Studio Package Verification
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out active repository files layer
+      uses: actions/checkout@v4
+
+    - name: Set up core Python execution environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+        cache: 'pip'
+
+    - name: Provision workspace dependencies matrix
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f MagickStudio/requirements.txt ]; then pip install -r MagickStudio/requirements.txt; fi
+
+    - name: Run compilation lint syntax test pass
+      run: |
+        cd MagickStudio
+        python -m py_compile main.py core.py tabs/geometry.py tabs/effects.py tabs/raw.py tabs/batch.py tabs/documentation.py
