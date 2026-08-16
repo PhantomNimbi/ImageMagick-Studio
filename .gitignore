@@ -75,6 +75,6 @@ output/
 *_fx.*
 
 # Assets creation scripts and temporary files
-*.bat
-*.sh
-make_icons.py
+# *.bat
+# *.sh
+# make_icons.py
