@@ -63,7 +63,7 @@ Double-click the **`launch.command`** script file to pop the GUI interface open 
 
 Double-click the **`launch.sh`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing. There is also a **`MagicStudio.desktop`** file for use with adding a desktop shortcut to the Magic Studio app on Linux.
 
-**Note**: Linux users wioll need to run `chmod +x launch.sh` to make the launch script executeable.
+**Note**: Linux users will need to run `chmod +x launch.sh` to make the launch script executeable.
 
 ---
 
