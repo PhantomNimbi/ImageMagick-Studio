@@ -4,10 +4,8 @@ A professional, cross-platform graphical user interface (GUI) for **ImageMagick*
 
 ---
 
-<div align="center" width="80%" height="auto">
-
-![[preview](preview.png)](preview.png)
-
+<div align="center">
+<img src="preview.png" width="80%" height="auto" alt="preview" />
 </div>
 
 ## ✨ Features
