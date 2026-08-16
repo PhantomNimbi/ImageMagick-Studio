@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Magick Studio
+Comment=Professional Graphical Interface for ImageMagick
+Exec=bash -c "$(dirname "%k")/launch.sh"
+Icon=utilities-terminal
+Terminal=false
+Categories=Graphics;Utility;

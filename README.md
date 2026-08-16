@@ -23,6 +23,9 @@ MagickStudio/
 ├── core.py                # Shared Subprocess Wrapper & Styling Guide
 ├── requirements.txt       # Python Dependencies Manifest
 ├── launch.vbs             # Windows Hidden Console Window Wrapper
+├── launch.sh              # Linux Hidden Console Window Wrapper
+├── launch.command         # macOS Hidden Console Window Wrapper
+├── MagicStudio.desktop    # Desktop shortcut entree for linux users
 ├── assets/                # Auto-compiled Multi-Resolution Icon Folder
 └── tabs/                  # Main Panel Module Controllers Package
     ├── geometry.py
@@ -41,13 +44,17 @@ MagickStudio/
 
 ## 🏁 Launching the Studio Application
 
+
 Once your deployment bootstrapper finishes successfully, spin up the unified workspace app container:
 
 ```bash
 python main.py
 ```
 
-*(On Windows systems, you can simply double-click the **`launch.vbs`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.)*
+* On Windows systems, you can simply double-click the **`launch.vbs`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
+* On macOS systems, you can simply double-click the **`launch.command`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
+* On Linux systems, you can simply double-click the **`launch.sh`** script file to pop the GUI interface open instantly with zero background command prompt terminal windows appearing.
+  * There is also a **`MagicStudio.desktop`** file for use with adding a desktop shortcut to the Magic Studio app on Linux.
 
 ---
 
