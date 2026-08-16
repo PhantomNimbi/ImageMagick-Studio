@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-    runs-allowed: true
     runs-on: ubuntu-latest
 
     steps:
@@ -28,5 +27,5 @@ jobs:
 
     - name: Run compilation lint syntax test pass
       run: |
-        # This checks that your module cogs can compile smoothly without raw syntax syntax errors
+        # This checks that your module cogs can compile smoothly without raw syntax errors
         python -m py_compile main.py core.py
