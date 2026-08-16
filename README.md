@@ -39,33 +39,18 @@ MagickStudio/
     └── doc_cogs/
 ```
 
----
+## Setup and installation
 
-## 🚀 Automated Environment Workspace Setup
+### Requirements
 
-Clone the repository and run the setup bootstrapper script corresponding to your local host operating system. The installer automatically provisions core binaries and pulls down Python module tracking dependencies.
-
-### 🔷 Windows Framework Users
-
-1. Open your cloned repository folder.
-2. Right-click **`setup.bat`** and choose **"Run as administrator"** (Required to register environment variables).
-
-### 🐧 Linux Environment Users
-
-Open your command terminal line and execute:
+* Python 3.10 or later
+* ImageMagick
+* Git
 
 ```bash
-chmod +x setup_linux.sh
-sudo ./setup_linux.sh
-```
-
-### 🍏 macOS Architecture Users
-
-Open your standard user command terminal window (**Do not run this script using sudo**) and execute:
-
-```bash
-chmod +x setup_mac.sh
-./setup_mac.sh
+git clone https://github.com/PhantomNimbi/Magick-Studio.git`
+cd magic-studio
+pip install -r requirements.txt
 ```
 
 ---
