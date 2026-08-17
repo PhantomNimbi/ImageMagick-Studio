@@ -5,8 +5,8 @@ authors:
 title: "Magick-Studio"
 version: 1.0.0
 date-released: 2026-08-16
-url: "https://github.com"
-repository-code: "https://github.com"
+url: "https://github.com/PhantomNimbi/Magick-Studio"
+repository-code: "https://github.com/PhantomNimbi/Magick-Studio"
 keywords:
   - image-processing
   - imagemagick
